@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
 import type { Movie } from "../types";
+import { getPosterUrl } from "../lib/assets";
 
 type MovieCardProps = {
   movie: Movie;
@@ -32,12 +33,10 @@ export default function MovieCard({
         >
           {movie.poster && !posterFailed ? (
             <img
-              className="movie-card__poster"
-              src={movie.poster}
-              alt={t("movieCard.posterAlt", { title: movieTitle })}
+              src={getPosterUrl(movie.poster)}
+              alt={movie.title}
               loading="lazy"
               decoding="async"
-              onError={() => setPosterFailed(true)}
             />
           ) : (
             <span className="movie-card__fallback" aria-hidden="true">
@@ -56,9 +55,9 @@ export default function MovieCard({
             <span className="movie-card__eyebrow">
               <span>{movie.year}</span>
               <span className="movie-card__dot" />
-              <span>
-                {t("movieCard.runtime", { count: movie.runtime ?? 120 })}
-              </span>
+              {movie.runtime != null && (
+                <span>{t("movieCard.runtime", { count: movie.runtime })}</span>
+              )}
             </span>
             <span className="movie-card__title">{movieTitle}</span>
             <span
@@ -71,7 +70,9 @@ export default function MovieCard({
               <span className="movie-card__genres">
                 {movie.genres.slice(0, 2).map((genre) => (
                   <span key={genre}>
-                    {t(`genres.${genre}`, { defaultValue: genre })}
+                    {t(`genres.${genre.toLowerCase()}`, {
+                      defaultValue: genre,
+                    })}
                   </span>
                 ))}
               </span>

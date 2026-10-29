@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { createRoot } from "react-dom/client";
-import { BrowserRouter, Routes, Route, useLocation, Link } from "react-router-dom";
+import { HashRouter, Routes, Route, useLocation, Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import "./styles.css";
 import Header from "./components/Header";
 import Home from "./pages/Home";
 import MoviesPage from "./pages/Movies";
@@ -32,10 +33,9 @@ function ScrollToTop() {
 function App() {
   const [movies, setMovies] = useState<Movie[]>([]);
   const [favorites, setFavorites] = useState<number[]>(getFavorites);
-  const [lastMood, setLastMood] = useState<Mood | null>(() => {
-    const m = getMood();
-    return m ? (m as Mood) : null;
-  });
+  const [lastMood, setLastMood] = useState<Mood | null>(
+    () => getMood() || null,
+  );
   const [light, setLight] = useState(getTheme);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
@@ -45,8 +45,10 @@ function App() {
       try {
         const data = await fetchMovies(controller.signal);
         setMovies(data);
-      } catch {
+      } catch (error) {
         if (!controller.signal.aborted) {
+          console.error("Failed to load movies:", error);
+
           setMovies(moviesData as Movie[]);
           setError(true);
         }
@@ -66,14 +68,16 @@ function App() {
     else delete document.documentElement.dataset.mood;
   }, [lastMood]);
   function toggleFavorite(id: number) {
-    setFavorites((old) => {
-      const next = old.includes(id)
-        ? old.filter((x) => x !== id)
-        : [...old, id];
-      saveFavorites(next);
-      return next;
-    });
+    setFavorites((previous) =>
+      previous.includes(id)
+        ? previous.filter((item) => item !== id)
+        : [...previous, id],
+    );
   }
+
+  useEffect(() => {
+    saveFavorites(favorites);
+  }, [favorites]);
   function chooseMood(m: Mood | null) {
     setLastMood(m);
     saveMood(m ?? "");
@@ -86,7 +90,11 @@ function App() {
     document.documentElement.lang = lang;
     document.documentElement.dir = lang === "fa" ? "rtl" : "ltr";
 
-    localStorage.setItem("cinemood-language", lang);
+    try {
+      localStorage.setItem("cinemood-language", lang);
+    } catch (error) {
+      console.warn("Unable to save language:", error);
+    }
   }, [i18n.resolvedLanguage]);
   return (
     <div className="app">
@@ -182,8 +190,8 @@ function App() {
 
 createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <App />
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>,
 );

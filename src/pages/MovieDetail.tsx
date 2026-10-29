@@ -13,6 +13,7 @@ import { useTranslation } from "react-i18next";
 import type { Movie } from "../types";
 import MovieWatchActions from "../components/MovieWatchActions";
 import { MOODS } from "../types";
+import { getPosterUrl } from "../lib/assets";
 
 type MovieDetailProps = {
   movies: Movie[];
@@ -55,11 +56,7 @@ export default function MovieDetail({
   const BackArrow = isEnglish ? ArrowLeft : ArrowRight;
   const isFavorite = favorites.includes(movie.id);
 
-  const posterSrc = movie.poster
-    ? /^https?:\/\//i.test(movie.poster)
-      ? movie.poster
-      : `/${movie.poster.replace(/^\/?public\//i, "").replace(/^\/+/, "")}`
-    : "";
+  const posterSrc = getPosterUrl(movie.poster);
 
   // Rating ring: fills proportionally to the rating (0-10)
   const ratio = Math.min(Math.max(movie.rating / 10, 0), 1);
@@ -87,7 +84,7 @@ export default function MovieDetail({
             />
 
             <div className="poster-fallback">
-              <span>🎬</span>
+              <Clapperboard size={42} strokeWidth={1.5} aria-hidden="true" />
               <b>{movieTitle}</b>
             </div>
           </div>
@@ -130,10 +127,12 @@ export default function MovieDetail({
               {movie.year}
             </span>
 
-            <span>
-              <Clock3 size={16} />
-              {t("movieCard.runtime", { count: movie.runtime ?? 120 })}
-            </span>
+            {movie.runtime != null && (
+              <span>
+                <Clock3 size={16} />
+                {t("movieCard.runtime", { count: movie.runtime })}
+              </span>
+            )}
           </div>
 
           {/* GENRES */}

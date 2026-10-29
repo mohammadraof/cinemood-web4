@@ -110,7 +110,10 @@ export default function Home({ movies, favorites, onFavorite }: HomeProps) {
           </div>
 
           <div className="feature-poster">
-            <img src="/posters/feature-poster.webp" alt={t("home.posterAlt")} />
+            <img
+              src={`${import.meta.env.BASE_URL}posters/feature-poster.webp`}
+              alt={t("home.posterAlt")}
+            />
 
             <div className="feature-poster-shade" />
 
