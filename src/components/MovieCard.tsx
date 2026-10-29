@@ -21,8 +21,11 @@ export default function MovieCard({
   const isEnglish = i18n.resolvedLanguage === "en";
   const movieTitle = isEnglish ? movie.title : movie.title_fa;
   const movieSubtitle = isEnglish ? movie.title_fa : movie.title;
+
   const detailUrl = `/movie/${movie.id}`;
 
+  const posterUrl = getPosterUrl(movie.poster);
+  const smallPosterUrl = posterUrl.replace(/\.webp(\?.*)?$/i, "-320.webp$1");
   return (
     <article className="movie-card movie-card--cinematic">
       <div className="movie-card__stage">
@@ -33,10 +36,19 @@ export default function MovieCard({
         >
           {movie.poster && !posterFailed ? (
             <img
-              src={getPosterUrl(movie.poster)}
-              alt={movie.title}
+              src={posterUrl}
+              srcSet={
+                smallPosterUrl !== posterUrl
+                  ? `${smallPosterUrl} 320w, ${posterUrl} 400w`
+                  : undefined
+              }
+              sizes="(max-width: 600px) 45vw, (max-width: 1024px) 30vw, 22vw"
+              alt={movieTitle}
+              width={320}
+              height={480}
               loading="lazy"
               decoding="async"
+              onError={() => setPosterFailed(true)}
             />
           ) : (
             <span className="movie-card__fallback" aria-hidden="true">

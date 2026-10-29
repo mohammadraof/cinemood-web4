@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { createRoot } from "react-dom/client";
 import { HashRouter, Routes, Route, useLocation, Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import "./styles.css";
 import Header from "./components/Header";
 import Home from "./pages/Home";
 import MoviesPage from "./pages/Movies";
@@ -31,7 +30,9 @@ function ScrollToTop() {
   return null;
 }
 function App() {
-  const [movies, setMovies] = useState<Movie[]>([]);
+  const [movies, setMovies] = useState<Movie[]>(
+    moviesData as Movie[]
+  );
   const [favorites, setFavorites] = useState<number[]>(getFavorites);
   const [lastMood, setLastMood] = useState<Mood | null>(
     () => getMood() || null,

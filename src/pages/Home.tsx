@@ -70,10 +70,19 @@ export default function Home({ movies, favorites, onFavorite }: HomeProps) {
               <ArrowLeft size={18} />
             </Link>
 
-            <a href="#popular" className="btn btn-ghost btn-large">
+            <button
+              type="button"
+              className="btn btn-ghost btn-large"
+              onClick={() => {
+                document.getElementById("popular")?.scrollIntoView({
+                  behavior: "smooth",
+                  block: "start",
+                });
+              }}
+            >
               <Play size={16} />
               {t("home.explore")}
-            </a>
+            </button>
           </div>
 
           <div className="hero-proof">
@@ -113,6 +122,11 @@ export default function Home({ movies, favorites, onFavorite }: HomeProps) {
             <img
               src={`${import.meta.env.BASE_URL}posters/feature-poster.webp`}
               alt={t("home.posterAlt")}
+              width={400}
+              height={600}
+              fetchPriority="high"
+              loading="eager"
+              decoding="async"
             />
 
             <div className="feature-poster-shade" />
@@ -120,9 +134,9 @@ export default function Home({ movies, favorites, onFavorite }: HomeProps) {
             <div className="poster-caption">
               <span>{t("home.specialPick")}</span>
 
-              <h3 className="different-text-colors">
+              <h2 className="different-text-colors">
                 {t("home.interstellar")}
-              </h3>
+              </h2>
 
               <div>
                 ★★★★★ <small>{t("home.rating")}</small>
