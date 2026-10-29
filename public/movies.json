@@ -1,0 +1,631 @@
+[
+  {
+    "id": 1,
+    "title": "Inside Out",
+    "title_fa": "درون و بیرون",
+    "year": 2015,
+    "genres": [
+      "animation",
+      "comedy",
+      "drama"
+    ],
+    "moods": [
+      "happy",
+      "sad"
+    ],
+    "rating": 8.1,
+    "poster": "/posters/inside-out.webp",
+    "aparatId": "dftaw",
+    "watchProviders": [
+      {
+        "name": "فیلیمو",
+        "url": "https://www.filimo.com/w/gibMk"
+      }
+    ],
+    "runtime": 95,
+    "director": "Pete Docter",
+    "synopsis": "احساساتِ درونِ ذهنِ یک دختر نوجوان وقتی خانواده‌شان به شهری تازه می‌رود، باید یاد بگیرند کنار هم کار کنند.",
+    "synopsis_en": "The emotions inside a young girl's mind must learn to work together when her family moves to a new city."
+  },
+  {
+    "id": 2,
+    "title": "The Intouchables",
+    "title_fa": "دست‌نیافتنی‌ها",
+    "year": 2011,
+    "genres": [
+      "comedy",
+      "drama"
+    ],
+    "moods": [
+      "sad",
+      "neutral"
+    ],
+    "rating": 8.5,
+    "poster": "/posters/the-intouchables.webp",
+    "aparatId": "i135b59",
+    "watchProviders": [
+      {
+        "name": "فیلیمو",
+        "url": "https://www.filimo.com/w/UgY5M"
+      }
+    ],
+    "runtime": 112,
+    "director": "Olivier Nakache, Éric Toledano",
+    "synopsis": "دوستیِ غیرمنتظره‌ی یک اشراف‌زاده‌ی زمین‌گیر و مراقبِ تازه‌کارش؛ فیلمی که هم می‌خندونه، هم آروم می‌کنه.",
+    "synopsis_en": "The unlikely friendship between a wealthy man paralysed in an accident and the young caregiver he hires."
+  },
+  {
+    "id": 3,
+    "title": "Up",
+    "title_fa": "بالا",
+    "year": 2009,
+    "genres": [
+      "animation",
+      "adventure"
+    ],
+    "moods": [
+      "sad",
+      "happy"
+    ],
+    "rating": 8.3,
+    "poster": "/posters/up.webp",
+    "aparatId": "c80gmiu",
+    "watchProviders": [
+      {
+        "name": "فیلیمو",
+        "url": "https://www.filimo.com/w/oMRBY"
+      }
+    ],
+    "runtime": 96,
+    "director": "Pete Docter, Bob Peterson",
+    "synopsis": "پیرمردی با هزاران بادکنک خانه‌اش را به پرواز درمی‌آورد تا رؤیای قدیمی‌اش را دنبال کند؛ اما یک همسفر ناخوانده هم همراهش است.",
+    "synopsis_en": "An old man ties thousands of balloons to his house to chase a lifelong dream, with an unexpected stowaway along for the ride."
+  },
+  {
+    "id": 4,
+    "title": "The Grand Budapest Hotel",
+    "title_fa": "هتل بزرگ بوداپست",
+    "year": 2014,
+    "genres": [
+      "comedy"
+    ],
+    "moods": [
+      "happy",
+      "neutral"
+    ],
+    "rating": 8.1,
+    "poster": "/posters/the-grand-budapest-hotel.webp",
+    "aparatId": "i81h285",
+    "watchProviders": [
+      {
+        "name": "فیلیمو",
+        "url": "https://www.filimo.com/w/fJI3i"
+      }
+    ],
+    "runtime": 99,
+    "director": "Wes Anderson",
+    "synopsis": "ماجرای رنگارنگِ سرایدارِ افسانه‌ای یک هتل اروپایی و شاگرد جوانش، در میان دزدی، جنگ و دوستی.",
+    "synopsis_en": "The colourful adventures of a legendary hotel concierge and his young protégé, tangled up in theft, war and friendship."
+  },
+  {
+    "id": 5,
+    "title": "Interstellar",
+    "title_fa": "میان‌ستاره‌ای",
+    "year": 2014,
+    "genres": [
+      "sci-fi",
+      "drama"
+    ],
+    "moods": [
+      "surprise",
+      "neutral"
+    ],
+    "rating": 8.7,
+    "poster": "/posters/interstellar.webp",
+    "aparatId": "dixF8",
+    "watchProviders": [
+      {
+        "name": "فیلیمو",
+        "url": "https://www.filimo.com/w/iHIl8"
+      }
+    ],
+    "runtime": 169,
+    "director": "Christopher Nolan",
+    "synopsis": "گروهی از فضانوردان از دریچه‌ای در فضا عبور می‌کنند تا برای بشر سیاره‌ای تازه پیدا کنند.",
+    "synopsis_en": "A team of astronauts travels through a wormhole in search of a new home for humanity."
+  },
+  {
+    "id": 6,
+    "title": "Inception",
+    "title_fa": "تلقین",
+    "year": 2010,
+    "genres": [
+      "sci-fi",
+      "action"
+    ],
+    "moods": [
+      "surprise"
+    ],
+    "rating": 8.8,
+    "poster": "/posters/inception.webp",
+    "aparatId": "w65u526",
+    "watchProviders": [
+      {
+        "name": "فیلیمو",
+        "url": "https://www.filimo.com/w/QVOzL"
+      }
+    ],
+    "runtime": 148,
+    "director": "Christopher Nolan",
+    "synopsis": "دزدی که از راه رؤیاها اطلاعات می‌دزدد، آخرین مأموریتش را می‌پذیرد: کاشتنِ یک ایده در ذهنِ یک نفر.",
+    "synopsis_en": "A thief who steals secrets through dreams takes one last job: planting an idea inside someone's mind."
+  },
+  {
+    "id": 7,
+    "title": "The Pursuit of Happyness",
+    "title_fa": "در جستجوی خوشبختی",
+    "year": 2006,
+    "genres": [
+      "drama"
+    ],
+    "moods": [
+      "sad"
+    ],
+    "rating": 8.0,
+    "poster": "/posters/the-pursuit-of-happyness.webp",
+    "aparatId": "v57kbwl",
+    "watchProviders": [
+      {
+        "name": "فیلیمو",
+        "url": "https://www.filimo.com/w/9gVm2"
+      }
+    ],
+    "runtime": 117,
+    "director": "Gabriele Muccino",
+    "synopsis": "مردی که همه‌چیزش را از دست داده، برای نجات خودش و پسرش از فقر می‌جنگد و دنبال شغلی رؤیایی می‌رود.",
+    "synopsis_en": "A struggling salesman fights to keep himself and his young son afloat while chasing a life-changing job."
+  },
+  {
+    "id": 8,
+    "title": "Coco",
+    "title_fa": "کوکو",
+    "year": 2017,
+    "genres": [
+      "animation",
+      "music"
+    ],
+    "moods": [
+      "sad",
+      "happy"
+    ],
+    "rating": 8.4,
+    "poster": "/posters/coco.webp",
+    "aparatId": "b09cpuv",
+    "watchProviders": [
+      {
+        "name": "فیلیمو",
+        "url": "https://www.filimo.com/w/NpXub"
+      }
+    ],
+    "runtime": 105,
+    "director": "Lee Unkrich",
+    "synopsis": "پسری که عاشق موسیقی است، در سفری به سرزمین مردگان، رازِ خانواده‌اش را کشف می‌کند.",
+    "synopsis_en": "A music-loving boy journeys to the Land of the Dead and uncovers the secret behind his family's past."
+  },
+  {
+    "id": 9,
+    "title": "Paddington 2",
+    "title_fa": "پدینگتون ۲",
+    "year": 2017,
+    "genres": [
+      "comedy",
+      "family"
+    ],
+    "moods": [
+      "sad",
+      "angry"
+    ],
+    "rating": 7.8,
+    "poster": "/posters/paddington-2.webp",
+    "aparatId": "n00vd96",
+    "watchProviders": [
+      {
+        "name": "فیلیمو",
+        "url": "https://www.filimo.com/w/dP9yl"
+      }
+    ],
+    "runtime": 103,
+    "director": "Paul King",
+    "synopsis": "خرس مهربانِ لندن به‌خاطر جرمی که نکرده زندانی می‌شود و باید بی‌گناهی‌اش را ثابت کند.",
+    "synopsis_en": "Paddington is jailed for a crime he didn't commit, and his new family must work to prove his innocence."
+  },
+  {
+    "id": 10,
+    "title": "Mad Max: Fury Road",
+    "title_fa": "مکس دیوانه: جاده خشم",
+    "year": 2015,
+    "genres": [
+      "action"
+    ],
+    "moods": [
+      "angry"
+    ],
+    "rating": 8.1,
+    "poster": "/posters/mad-max-fury-road.webp",
+    "aparatId": "t58o1w5",
+    "watchProviders": [
+      {
+        "name": "فیلیمو",
+        "url": "https://www.filimo.com/w/8ZhYe"
+      }
+    ],
+    "runtime": 120,
+    "director": "George Miller",
+    "synopsis": "در دنیایی ویران، زنی جسور و یک سرباز یاغی از دست یک مستبد فرار می‌کنند؛ تعقیب‌وگریزی یک‌نفس در بیابان.",
+    "synopsis_en": "In a ruined desert world, a fearless woman and a rogue road warrior flee a tyrant in one nonstop chase."
+  },
+  {
+    "id": 11,
+    "title": "The Shawshank Redemption",
+    "title_fa": "رستگاری در شاوشنک",
+    "year": 1994,
+    "genres": [
+      "drama"
+    ],
+    "moods": [
+      "sad",
+      "neutral"
+    ],
+    "rating": 9.3,
+    "poster": "/posters/the-shawshank-redemption.webp",
+    "aparatId": "q7255vw",
+    "watchProviders": [
+      {
+        "name": "فیلیمو",
+        "url": "https://www.filimo.com/w/YiRfm"
+      }
+    ],
+    "runtime": 142,
+    "director": "Frank Darabont",
+    "synopsis": "بانکداری بی‌گناه به زندان می‌افتد و در دل سختی‌ها با دوستی و امید راهی برای ماندن پیدا می‌کند.",
+    "synopsis_en": "An innocent banker sent to prison finds friendship and hope in the harshest of places."
+  },
+  {
+    "id": 12,
+    "title": "A Separation",
+    "title_fa": "جدایی نادر از سیمین",
+    "year": 2011,
+    "genres": [
+      "drama"
+    ],
+    "moods": [
+      "neutral"
+    ],
+    "rating": 8.3,
+    "poster": "/posters/a-separation.webp",
+    "aparatId": "b68id1o",
+    "watchProviders": [
+      {
+        "name": "فیلیمو",
+        "url": "https://www.filimo.com/w/NmKDT"
+      }
+    ],
+    "runtime": 123,
+    "director": "Asghar Farhadi",
+    "synopsis": "جدایی یک زوج، آن‌ها و خانواده‌هایشان را درگیر دعوایی حقوقی و انتخاب‌هایی سخت می‌کند.",
+    "synopsis_en": "A couple's separation pulls two families into a legal dispute and a series of painful choices."
+  },
+  {
+    "id": 13,
+    "title": "Children of Heaven",
+    "title_fa": "بچه‌های آسمان",
+    "year": 1997,
+    "genres": [
+      "drama",
+      "family"
+    ],
+    "moods": [
+      "sad",
+      "happy"
+    ],
+    "rating": 8.2,
+    "poster": "/posters/children-of-heaven.webp",
+    "aparatId": "56KDj",
+    "runtime": 89,
+    "director": "Majid Majidi",
+    "synopsis": "برادری برای جبران گم‌شدنِ کفش‌های خواهرش، با او سرِ یک جفت کفش شریک می‌شود و دنبال راهی برای نجاتشان می‌گردد.",
+    "synopsis_en": "A boy loses his sister's only pair of shoes, so the two share his pair and look for a way out."
+  },
+  {
+    "id": 14,
+    "title": "Spirited Away",
+    "title_fa": "شهر اشباح",
+    "year": 2001,
+    "genres": [
+      "animation",
+      "fantasy"
+    ],
+    "moods": [
+      "surprise",
+      "neutral"
+    ],
+    "rating": 8.6,
+    "poster": "/posters/spirited-away.webp",
+    "aparatId": "1xFTt",
+    "watchProviders": [
+      {
+        "name": "فیلیمو",
+        "url": "https://www.filimo.com/w/RpD2j"
+      }
+    ],
+    "runtime": 125,
+    "director": "Hayao Miyazaki",
+    "synopsis": "دختری وارد دنیای اسرارآمیز ارواح می‌شود و باید برای نجات پدر و مادرش کار کند و شجاع باشد.",
+    "synopsis_en": "A girl wanders into a mysterious world of spirits and must find courage to save her parents."
+  },
+  {
+    "id": 15,
+    "title": "The Truman Show",
+    "title_fa": "نمایش ترومن",
+    "year": 1998,
+    "genres": [
+      "comedy",
+      "drama"
+    ],
+    "moods": [
+      "surprise"
+    ],
+    "rating": 8.2,
+    "poster": "/posters/the-truman-show.webp",
+    "aparatId": "s40557x",
+    "watchProviders": [
+      {
+        "name": "فیلیمو",
+        "url": "https://www.filimo.com/w/9oLZM"
+      }
+    ],
+    "runtime": 103,
+    "director": "Peter Weir",
+    "synopsis": "مردی تازه می‌فهمد تمام زندگی‌اش یک برنامه‌ی تلویزیونی بوده و می‌خواهد از آن فرار کند.",
+    "synopsis_en": "A man discovers his entire life is a TV show and sets out to escape it."
+  },
+  {
+    "id": 16,
+    "title": "Zootopia",
+    "title_fa": "زوتوپیا",
+    "year": 2016,
+    "genres": [
+      "animation",
+      "comedy"
+    ],
+    "moods": [
+      "happy",
+      "angry"
+    ],
+    "rating": 8.0,
+    "poster": "/posters/zootopia.webp",
+    "aparatId": "u20o489",
+    "watchProviders": [
+      {
+        "name": "فیلیمو",
+        "url": "https://www.filimo.com/w/zbuOM"
+      }
+    ],
+    "runtime": 108,
+    "director": "Byron Howard, Rich Moore",
+    "synopsis": "خرگوشی جوان در شهری از حیوانات، می‌خواهد پلیس شود و با یک روباه حقه‌باز معمایی را حل می‌کند.",
+    "synopsis_en": "A young rabbit becomes a cop in a city of animals and teams up with a sly fox to solve a case."
+  },
+  {
+    "id": 17,
+    "title": "Forrest Gump",
+    "title_fa": "فارست گامپ",
+    "year": 1994,
+    "genres": [
+      "drama",
+      "romance"
+    ],
+    "moods": [
+      "sad",
+      "happy"
+    ],
+    "rating": 8.8,
+    "poster": "/posters/forrest-gump.webp",
+    "aparatId": "wXhy5",
+    "watchProviders": [
+      {
+        "name": "فیلیمو",
+        "url": "https://www.filimo.com/w/r97tP"
+      }
+    ],
+    "runtime": 142,
+    "director": "Robert Zemeckis",
+    "synopsis": "مردی ساده‌دل، بی‌آنکه بخواهد، شاهدِ رویدادهای بزرگ تاریخ می‌شود و از عشقش دست نمی‌کشد.",
+    "synopsis_en": "A kind-hearted man unwittingly witnesses decades of history while holding on to the love of his life."
+  },
+  {
+    "id": 18,
+    "title": "The Martian",
+    "title_fa": "مریخی",
+    "year": 2015,
+    "genres": [
+      "sci-fi",
+      "adventure"
+    ],
+    "moods": [
+      "happy",
+      "neutral"
+    ],
+    "rating": 8.0,
+    "poster": "/posters/the-martian.webp",
+    "aparatId": "p089629",
+    "watchProviders": [
+      {
+        "name": "فیلیمو",
+        "url": "https://www.filimo.com/w/PA1NY"
+      }
+    ],
+    "runtime": 144,
+    "director": "Ridley Scott",
+    "synopsis": "فضانوردی تنها روی مریخ جا می‌ماند و با علم و شوخ‌طبعی برای زنده‌ماندن می‌جنگد.",
+    "synopsis_en": "An astronaut stranded alone on Mars uses science and humour to survive."
+  },
+  {
+    "id": 19,
+    "title": "Ratatouille",
+    "title_fa": "موش سرآشپز",
+    "year": 2007,
+    "genres": [
+      "animation",
+      "comedy"
+    ],
+    "moods": [
+      "happy"
+    ],
+    "rating": 8.1,
+    "poster": "/posters/ratatouille.webp",
+    "aparatId": "c52rc2k",
+    "watchProviders": [
+      {
+        "name": "فیلیمو",
+        "url": "https://www.filimo.com/w/U3y4t"
+      }
+    ],
+    "runtime": 111,
+    "director": "Brad Bird",
+    "synopsis": "موشی با استعداد آشپزی در پاریس رؤیای سرآشپز شدن را دنبال می‌کند.",
+    "synopsis_en": "A rat with a gift for cooking chases his dream of becoming a chef in Paris."
+  },
+  {
+    "id": 20,
+    "title": "Knives Out",
+    "title_fa": "چاقوکشی",
+    "year": 2019,
+    "genres": [
+      "mystery",
+      "comedy"
+    ],
+    "moods": [
+      "surprise",
+      "neutral"
+    ],
+    "rating": 7.9,
+    "poster": "/posters/knives-out.webp",
+    "aparatId": "c91i5tq",
+    "watchProviders": [
+      {
+        "name": "فیلیمو",
+        "url": "https://www.filimo.com/w/75B1h"
+      }
+    ],
+    "runtime": 130,
+    "director": "Rian Johnson",
+    "synopsis": "کارآگاهی زیرک مرگِ مشکوکِ نویسنده‌ای ثروتمند را در میان خانواده‌ی پرتنش او بررسی می‌کند.",
+    "synopsis_en": "A sharp detective investigates the suspicious death of a wealthy author among his scheming family."
+  },
+  {
+    "id": 21,
+    "title": "Soul",
+    "title_fa": "روح",
+    "year": 2020,
+    "genres": [
+      "animation",
+      "drama"
+    ],
+    "moods": [
+      "sad",
+      "neutral"
+    ],
+    "rating": 8.0,
+    "poster": "/posters/soul.webp",
+    "aparatId": "xm9Gg",
+    "watchProviders": [
+      {
+        "name": "فیلیمو",
+        "url": "https://www.filimo.com/w/sFOnj"
+      }
+    ],
+    "runtime": 100,
+    "director": "Pete Docter",
+    "synopsis": "معلم موسیقی‌ای که می‌خواهد نوازنده شود، در سفری عجیب معنای زندگی را از نو کشف می‌کند.",
+    "synopsis_en": "A music teacher with big dreams takes a strange journey that changes how he sees life."
+  },
+  {
+    "id": 22,
+    "title": "John Wick",
+    "title_fa": "جان ویک",
+    "year": 2014,
+    "genres": [
+      "action"
+    ],
+    "moods": [
+      "angry"
+    ],
+    "rating": 7.4,
+    "poster": "/posters/john-wick.webp",
+    "aparatId": "92hVB",
+    "watchProviders": [
+      {
+        "name": "فیلیمو",
+        "url": "https://www.filimo.com/w/qJhAt"
+      }
+    ],
+    "runtime": 101,
+    "director": "Chad Stahelski",
+    "synopsis": "آدم‌کشی بازنشسته برای انتقام از کسانی که آخرین یادگار همسرش را گرفتند، به دنیای تبهکاران برمی‌گردد.",
+    "synopsis_en": "A retired hitman returns to the criminal underworld to take revenge on those who wronged him."
+  },
+  {
+    "id": 23,
+    "title": "The Lion King",
+    "title_fa": "شیرشاه",
+    "year": 1994,
+    "genres": [
+      "animation",
+      "drama"
+    ],
+    "moods": [
+      "sad",
+      "happy"
+    ],
+    "rating": 8.5,
+    "poster": "/posters/the-lion-king.webp",
+    "aparatId": "u0979a8",
+    "watchProviders": [
+      {
+        "name": "فیلیمو",
+        "url": "https://www.filimo.com/w/8PnGT"
+      }
+    ],
+    "runtime": 88,
+    "director": "Roger Allers, Rob Minkoff",
+    "synopsis": "شیرِ جوانی که پدرش را از دست داده، باید جای خودش را در چرخه‌ی زندگی پیدا کند.",
+    "synopsis_en": "A young lion who lost his father must find his place in the circle of life."
+  },
+  {
+    "id": 24,
+    "title": "Parasite",
+    "title_fa": "انگل",
+    "year": 2019,
+    "genres": [
+      "thriller",
+      "drama"
+    ],
+    "moods": [
+      "surprise"
+    ],
+    "rating": 8.5,
+    "poster": "/posters/parasite.webp",
+    "aparatId": "6m4Ir",
+    "watchProviders": [
+      {
+        "name": "فیلیمو",
+        "url": "https://www.filimo.com/w/fvt43"
+      }
+    ],
+    "runtime": 132,
+    "director": "Bong Joon-ho",
+    "synopsis": "خانواده‌ای فقیر کم‌کم به زندگی یک خانواده‌ی ثروتمند نفوذ می‌کند و همه‌چیز از کنترل خارج می‌شود.",
+    "synopsis_en": "A poor family slowly infiltrates the life of a wealthy household, and things spiral out of control."
+  }
+]
